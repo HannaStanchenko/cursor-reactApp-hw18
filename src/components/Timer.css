@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.timer .timer-time {
+    display: flex;
+    column-gap: 50px;
+    font-size: 100px;
+}
+
+.timer .timer-manage {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 50px;
+}
+
+.timer .timer-manage .btns, .timer .timer-manage .auto_int {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.timer .timer-manage .btns button {
+    width: 120px;
+    height: 55px;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: rgba(134, 134, 134, 0.266);
+    transition: all 0.3s;
+}
+
+.timer .timer-manage .btns button:hover {
+    color: white;
+    background-color: black;
+}
+
+.timer .timer-manage .auto_int {
+    font-size: 20px;
+}
+  
+input, select {
+    margin-left: 10px;
+}
